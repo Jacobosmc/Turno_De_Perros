@@ -1,0 +1,13 @@
+-Fondo de la pantalla de juego
+-Fondo de la pantalla principal
+-Puesto de perritos
+-Clientes (Unos 4 o cinco para que se vayan alternando)
+-Perrito
+-Ingredientes (Mayonesa, Kétchup, Mostaza, Salsa de Queso, Pepinillos y Cebolla)
+-Botones
+-Símbolos de strikes
+-Contadores de tiempo
+-Pantalla de tutorial
+
+AÑADIDOS OPCIONALES
+-Múltiples caras apara los clientes

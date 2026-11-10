@@ -1,0 +1,18 @@
+-Hacer que aparezca un objeto perrito al pulsar espacio - HECHO
+-Hacer que no aparezca el objeto perrito si ya hay uno en un área de la pantalla - HECHO
+-Hacer que se destruya el objeto perrito al pulsar atrás - HECHO
+-Hacer que al pulsar las teclas se añadan como hijos del perrito los objetos ingredientes - HECHO
+-Hacer que al pulsar enter el perrito se mueva al otro lado de la pantalla y empiece a caer
+-Hacer que puedas controlar el perrito con las flechas laterales solo dentro de un area
+-Hacer que puedas alternar de perritos con las flechas de arriba a abajo
+-Hacer que se destruya el perrito al aterrizar en una cabeza o en el suelo
+-Hacer que aparezcan pedidos de ingredientes
+-Dar puntos en base a la cantidad de ingredientes, si son en el orden correcto y si aterrizan en la cabeza del cliente
+-Dar strikes si se cae al suelo o si el orden del pedido es incorrecto
+-Finalizar la partida al tercer strike, enseñando un canvas con la puntuación
+-Añadir tiempo limite para entregar el perrito, haciendo que se acaba el tiempo y no se ha entregado el perrito se destruya y de un strike
+-Hacer que el numero de clientes simultáneos, la cantidad de ingredientes que piden, el tiempo para entregarlos y la velocidad de caída del perrito varíe según avance la partida
+-Hacer con canvas un tutorial que explique controles y reglas
+
+AÑADIDOS OPCIONALES
+-Hacer que los clientes cambien de cara en reacción a lo que ocurre, alegre si les das un pedido correcto, enfadados si tardas en darles el perrito y triste si se los das mal siendo indiferentes de base
