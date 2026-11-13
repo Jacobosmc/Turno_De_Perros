@@ -9,7 +9,7 @@ public class ClientLogic : MonoBehaviour
     public Vector2 StandPosition;
     public float moveSpeed = 3f;
     public float waitTime = 1f;
-    public float finalXMin = -4f;
+    public float finalXMin = -2f;
     public float finalXMax = 10f;
     public float finalY = -5f;
 
@@ -92,7 +92,7 @@ public class ClientLogic : MonoBehaviour
 
             if (correctCount > 0)
             {
-                GameManager.points += correctCount;
+                GameManager.AddPoints(correctCount);
                 DL.isMoving = false;
                 DL.isSelected = false;
                 DL.UpdateVisuals();

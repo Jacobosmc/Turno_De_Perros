@@ -156,7 +156,7 @@ MonoBehaviour:
   StandPosition: {x: 0, y: 0}
   moveSpeed: 3
   waitTime: 1
-  finalXMin: -4
+  finalXMin: -2
   finalXMax: 10
   finalY: -5
   clientOrder: []

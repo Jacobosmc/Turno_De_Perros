@@ -18,8 +18,13 @@ public class GameManager : MonoBehaviour
     public GameObject finalCanvas;
     public TMP_Text finalScore;
 
+    public AudioClip strikeSound;
+    public AudioClip pointsSound;
+    private static GameManager instance;
+
     void Awake()
     {
+        if (instance == null) instance = this;
         points = 0f;
         strikes = 0;
         isOver = false;
@@ -83,7 +88,14 @@ public class GameManager : MonoBehaviour
         if (strikes < 3)
         {
             strikes++;
+            AudioSource.PlayClipAtPoint(instance.strikeSound, Camera.main.transform.position);
         }
+    }
+
+    public static void AddPoints(float amount)
+    {
+        points += amount;
+        AudioSource.PlayClipAtPoint(instance.pointsSound, Camera.main.transform.position);
     }
 
     public void GameOver()
