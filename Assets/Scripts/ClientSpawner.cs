@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ClientSpawner : MonoBehaviour
 {
-    public GameObject clientPrefab;
+    public GameObject[] clientPrefabs;
     public Vector2 spawnPosition = new Vector2(-10, 0);
     public Vector2 secondPositionTarget = new Vector2(-5, 0);
     public float spawnInterval = 8f;
@@ -33,6 +33,8 @@ public class ClientSpawner : MonoBehaviour
 
     void SpawnClient()
     {
+        int randomIndex = Random.Range(0,clientPrefabs.Length);
+        GameObject clientPrefab = clientPrefabs[randomIndex];
         GameObject newClientObj = Instantiate(clientPrefab, spawnPosition, Quaternion.identity);
         ClientLogic clientLogic = newClientObj.GetComponent<ClientLogic>();
         if (clientLogic != null)

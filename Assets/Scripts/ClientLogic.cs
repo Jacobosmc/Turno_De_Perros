@@ -98,7 +98,7 @@ public class ClientLogic : MonoBehaviour
                 DL.UpdateVisuals();
                 CD.RemoveDogs(dogFather.gameObject);
                 dogFather.SetParent(transform);
-                dogFather.localPosition = new Vector3(0f, 0.5f, 0f);
+                dogFather.localPosition = new Vector3(0f, 2.5f, 0f);
                 OC.CompleteClientOrder(this);
                 Destroy(gameObject, 1f);
             }
