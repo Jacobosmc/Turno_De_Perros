@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MenuPartida.unity
     guid: 40ce10f4b72d060478847ec759913342
+  - enabled: 1
+    path: Assets/Scenes/MenuTutorial.unity
+    guid: bb4a21d670c09a942bf740ab2108fd67
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
