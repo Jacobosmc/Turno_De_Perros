@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8238048566961801254}
   - component: {fileID: 5791181315440120902}
   m_Layer: 0
-  m_Name: Cebolla
+  m_Name: Onions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 11
   m_MaskInteraction: 0
   m_Sprite: {fileID: -699147352088754052, guid: a595f99823236244491cde20dfb62c42, type: 3}
   m_Color: {r: 1, g: 0, b: 0.93677616, a: 1}

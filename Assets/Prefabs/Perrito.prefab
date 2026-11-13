@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 2837323581611967617}
   - component: {fileID: 1083829333880320361}
   - component: {fileID: -2818266294242399500}
+  - component: {fileID: 2519486191916687798}
+  - component: {fileID: 8096909892352293916}
   m_Layer: 0
   m_Name: Perrito
   m_TagString: Dog
@@ -80,7 +82,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1943694069140063901, guid: 48d4890a52e37424e8594f77901435d1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -123,7 +125,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -139,3 +141,50 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 8.65, y: 3.95}
   m_EdgeRadius: 0
+--- !u!114 &2519486191916687798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5842172376177527379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 084274478d20fa14690fdf990f4bb4da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DogLogic
+  fallSpeed: 2
+  moveSpeed: 30
+  isMoving: 0
+  isSelected: 0
+  minX: -1
+  maxX: 9
+  SR: {fileID: 0}
+  OC: {r: 0, g: 0, b: 0, a: 0}
+--- !u!50 &8096909892352293916
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5842172376177527379}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
